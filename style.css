@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nawbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    width: auto;
+   }
+   .nawbar ul li a{
+       text-decoration: none;
+       color: red;
+      
+   }
+   .nawbar ul li:hover{
+       background-color: blue;
+   }  
+
+.nawbar ul li:hover a{
+    color: black;
+}
+.nawbar ul li a i{
+    padding: 0px 3px;
+}
+.nawbar ul li{
+    padding: 8px 16px;
+}
+#home{
+    background-color: red;
+     color: white;
+}
+.nawbar ul{
+    cursor: pointer;
+}
+.div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:wheat ;
+    font-weight: 400;
+    background-color: red;
+}
+#star{
+    background-color: black;
+    color: white;
+    padding: 12px 64px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+#star:hover{
+    background-color: rgb(173, 172, 172);
+    cursor: pointer;
+    color: black;
+}
+.lorem{
+    display: flex;
+}
+.tex{
+    margin: auto;
+  width: 70%;
+  padding-top: 64px;
+}
+.icon{
+    font-size: 200px;
+    color: red;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
